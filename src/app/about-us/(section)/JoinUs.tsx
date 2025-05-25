@@ -53,7 +53,7 @@ const JoinUs = () => {
     <section
       className="relative flex w-full items-center justify-center bg-cover bg-fixed bg-center px-4 py-24 md:py-36"
       style={{
-        backgroundImage: "url('/images/about-us/DSC03437.png')",
+        backgroundImage: "url('/images/about-us/4.jpg')",
       }}
     >
       {/* Overlay */}

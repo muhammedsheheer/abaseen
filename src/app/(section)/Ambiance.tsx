@@ -26,20 +26,22 @@ const Ambiance = ({}) => {
   return (
     <section className="relative flex h-fit w-full items-center justify-center overflow-y-hidden px-4 py-24 md:h-[100vh]">
       <div className="absolute left-0 top-0 z-10 flex h-full w-full flex-col md:flex-row">
-        <div className="h-full w-full md:w-1/2">
+        <div className="h-full w-full">
           <Image
-            src="/images/home/ambiance/1.png"
+            src="/images/home/ambiance/1.jpg"
             width={960}
             height={951}
             alt="1"
+            className="h-full w-full"
           />
         </div>
         <div className="h-full w-full md:w-1/2">
           <Image
-            src="/images/home/ambiance/2.png"
+            src="/images/home/ambiance/2.jpg"
             width={960}
             height={951}
             alt="2"
+            className="h-full w-full"
           />
         </div>
       </div>

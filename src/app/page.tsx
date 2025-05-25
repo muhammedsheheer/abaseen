@@ -3,11 +3,7 @@ import Hero from "./(section)/Hero";
 import Welcome from "./(section)/Welcome";
 import Footer from "@/components/Footer";
 import Reviews from "./(section)/Review";
-import ConnectWithUs from "./(section)/ConnectWithUs";
-import Contact from "./(section)/Contact";
-import Latest from "./(section)/Latest";
 import Reserve from "./(section)/Reserve";
-import Imagecontainer from "./(section)/Image";
 import Ambiance from "./(section)/Ambiance";
 import Tips from "./(section)/Tips";
 import Menu from "./(section)/Menu";
@@ -35,17 +31,13 @@ export default function HomePage() {
       <div className="flex h-full w-full flex-col items-center justify-center overflow-x-hidden">
         <Navbar position="fixed" />
         <Hero />
-        <Latest />
         <Welcome />
         <Ambiance />
         <Special />
         <Reserve />
-        <Tips />
         <Reviews />
-        <Imagecontainer />
         <Menu />
-        <ConnectWithUs />
-        <Contact />
+        <Tips />
         <Footer />
       </div>
       {isScrolled && (

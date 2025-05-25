@@ -94,12 +94,12 @@ const Welcome = ({}) => {
     <section
       id="welcome"
       className="relative flex w-full items-center justify-center bg-transparent"
-      style={{
-        backgroundImage: "url('/images/home/about/mask.png')",
-        backgroundPosition: "center center",
-        backgroundSize: "contain",
-        backgroundRepeat: "no-repeat",
-      }}
+      // style={{
+      //   backgroundImage: "url('/images/home/about/mask.png')",
+      //   backgroundPosition: "center center",
+      //   backgroundSize: "contain",
+      //   backgroundRepeat: "no-repeat",
+      // }}
     >
       <div className="lines">
         <div className="line"></div>
@@ -163,7 +163,7 @@ const Welcome = ({}) => {
           <div className="grid w-full max-w-[1200px] grid-cols-1 items-center justify-center gap-9 md:grid-cols-3 md:justify-between">
             <div className="m-auto flex w-[90%] items-center justify-center md:m-0 md:w-full">
               <Image
-                src="/images/home/about/a.png"
+                src="/images/home/about1/1.jpg"
                 alt="right"
                 width={407}
                 height={570}
@@ -175,7 +175,7 @@ const Welcome = ({}) => {
             </div>
             <div className="m-auto flex w-[90%] items-center justify-center md:m-0 md:w-full">
               <Image
-                src="/images/home/about/b.png"
+                src="/images/home/about1/2.jpg"
                 alt="right"
                 width={407}
                 height={570}
@@ -184,7 +184,7 @@ const Welcome = ({}) => {
             </div>
             <div className="m-auto flex w-[90%] items-center justify-center md:m-0 md:w-full">
               <Image
-                src="/images/home/about/c.png"
+                src="/images/home/about1/3.jpg"
                 alt="right"
                 width={407}
                 height={570}

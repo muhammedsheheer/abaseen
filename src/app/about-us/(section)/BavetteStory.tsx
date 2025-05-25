@@ -70,7 +70,7 @@ const BavetteStory = () => {
           {/* Image */}
           <div className="w-full overflow-hidden rounded-xl shadow-xl md:w-1/2">
             <Image
-              src="/images/about-us/DSC03517.png"
+              src="/images/about-us/3.jpg"
               width={6024}
               height={4024}
               alt="Abaseen Story"

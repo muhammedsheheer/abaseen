@@ -13,6 +13,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { Mail } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
@@ -93,16 +94,15 @@ const Contact = ({}) => {
                         className="min-h-full scale-x-[-1] object-cover"
                     /> */}
 
-              <video
+              <Image
+                alt="bg"
+                width={6040}
+                height={4040}
                 className="min-h-full min-w-full object-cover"
-                style={{ objectPosition: "center" }}
-                src="/videos/contact/contact.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
+                src="/images/about-us/5.jpg"
+
                 // poster="https://foodo-web-videos.s3.eu-west-2.amazonaws.com/vu-lounge-frame.png"
-              ></video>
+              />
             </div>
             <p className="z-20 font-inter text-4xl font-[200] uppercase text-primary md:text-7xl">
               Contact

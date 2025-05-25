@@ -83,7 +83,7 @@ const Hero = () => {
         <div className="w-full md:w-1/2">
           <div className="relative w-full overflow-hidden rounded-xl shadow-lg md:rounded-3xl">
             <Image
-              src="/images/about-us/DSC03382.png"
+              src="/images/about-us/2.jpg"
               alt="Abaseen Hero Image"
               width={1200}
               height={1600}
